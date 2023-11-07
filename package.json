@@ -23,9 +23,9 @@
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4",
-    "ag-grid-community": "^30.2.1",
-    "ag-grid-enterprise": "^30.2.1",
-    "ag-grid-angular": "^30.2.1"
+    "@ag-grid-community/all-modules": "^23.1.1",
+    "@ag-grid-community/angular": "^23.2.0",
+    "@ag-grid-enterprise/all-modules": "^23.1.1"
   },
   "devDependencies": {
     "@angular-devkit/architect": "^0.1400.0",

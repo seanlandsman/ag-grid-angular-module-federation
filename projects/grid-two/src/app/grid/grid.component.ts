@@ -1,5 +1,5 @@
 import {Component, ViewEncapsulation} from '@angular/core';
-import {ColDef} from 'ag-grid-community';
+import {ColDef} from '@ag-grid-community/all-modules';
 
 @Component({
   selector: 'app-root',
