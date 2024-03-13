@@ -1,10 +1,10 @@
 import {Component, ViewEncapsulation} from '@angular/core';
-import {ColDef} from '@ag-grid-community/all-modules';
+import { ColDef } from 'ag-grid-community';
 
 @Component({
   selector: 'app-root',
   templateUrl: './grid.component.html',
-  styleUrls: [ './grid.component.css' ],
+  styleUrls: [ './grid.component.scss' ],
   encapsulation: ViewEncapsulation.None
 })
 export class GridComponent {
