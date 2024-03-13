@@ -1,0 +1,24 @@
+@use "ag-grid-community/styles" as ag;
+@import "ag-grid-community/styles/ag-grid.css";
+@import "ag-grid-community/styles/ag-theme-alpine.css";
+
+
+@include ag.grid-styles(
+(
+  theme: abc,
+  extend-theme: alpine,
+  //fonts
+  font-size: 20px,
+
+  //header
+  header-height: 48px,
+  header-foreground-color: rgb(0, 255, 221),
+  header-background-color: rgb(15, 92, 224),
+
+  //row
+  odd-row-background-color: white,
+  row-hover-color: rgba(33, 150, 243, 0.1),
+  row-border-color: rgb(12, 128, 160),
+  row-height: 60px
+)
+);

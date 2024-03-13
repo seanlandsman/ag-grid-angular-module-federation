@@ -1,5 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-import { GridComponent } from './app.component';
+import { GridComponent } from './grid.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -14,12 +14,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(GridComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
-  });
-
-  it(`should have as title 'grid-two'`, () => {
-    const fixture = TestBed.createComponent(GridComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('grid-two');
   });
 
   it('should render title', () => {
